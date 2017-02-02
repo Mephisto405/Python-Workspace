@@ -1,0 +1,18 @@
+# 키 - 동물 이름 : 값 - 장소 
+zoo_animals = { 'Unicorn' : 'Cotton Candy House',
+'Sloth' : 'Rainforest Exhibit',
+'Bengal Tiger' : 'Jungle House',
+'Atlantic Puffin' : 'Arctic Exhibit',
+'Rockhopper Penguin' : 'Arctic Exhibit'}
+# 사전형 (또는 리스트) 선언은 여러 줄에 걸쳐 작성할 수 있습니다.
+
+# 'Unicorn' 항목 삭제 (유니콘은 어마어마하게 비싸기 때문이죠) 
+del zoo_animals['Unicorn']
+
+# 여기에 코드를 작성하세요!
+del zoo_animals['Sloth']
+del zoo_animals['Bengal Tiger']
+
+zoo_animals['Rockhopper Penguin'] = 'Sex'
+
+print zoo_animals
